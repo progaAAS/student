@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Адрей Петров",
+      "avgAssessment": "5",
+      "skipInvalid": "8",
+      "skipValid": "8",
+      "isAutomat": true
+    },
+    {
+      "name": "Иван Васильев",
+      "avgAssessment": "5",
+      "skipInvalid": 10,
+      "skipValid": 10,
+      "isAutomat": false,
+      "id": 2
+    },
+    {
+      "name": "Максим Фролов",
+      "avgAssessment": "5",
+      "skipInvalid": 8,
+      "skipValid": 10,
+      "isAutomat": true,
+      "id": 3
+    },
+    {
+      "name": "Евгений Михайлов",
+      "avgAssessment": "5",
+      "skipInvalid": 10,
+      "skipValid": 10,
+      "isAutomat": false,
+      "id": 4
+    },
+    {
+      "name": "Дмитрий Числов",
+      "avgAssessment": "5",
+      "skipInvalid": 8,
+      "skipValid": 10,
+      "isAutomat": true,
+      "id": 5
+    }
+  ]
+}

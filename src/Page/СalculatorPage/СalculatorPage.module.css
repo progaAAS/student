@@ -1,0 +1,38 @@
+.calculatorPage{
+    display: flex;
+    flex-direction: column; 
+}
+
+.calculatorPage .form{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+.calculatorPage .result{
+    display: flex;
+    justify-content: center;
+}
+.FormInput{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.Form__headerItem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btnCalculate{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: #ffff;
+    font-weight: bold;
+    border: 0;
+    float: right;
+}
+.btnCalculate:hover{
+    background-color: #0663a1;
+    cursor: pointer;
+}

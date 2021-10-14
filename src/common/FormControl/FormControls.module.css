@@ -1,0 +1,53 @@
+.formControl.error input,
+.formControl.error textarea
+{
+    border: solid red 2px;
+}
+
+.formControl.error span
+{
+    color: red;
+}
+
+.formSummaryError {
+    border: red 1px solid;
+    padding: 5px;
+    color: red;
+}
+
+.form_error{
+    font-size: 12px;
+    color: red;
+}
+.formControl{
+    height: 50px;
+    margin-bottom: 10px;
+}
+.textBox {
+    padding-left: 24px;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 117px 214px;;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.input {
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #D6DCE9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 12px;
+    align-self: center;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+
+    color: #999999;
+
+}

@@ -1,0 +1,37 @@
+.studentPage{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.studentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.studentBox .students{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 570px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.students .info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.info .studentName{
+    display: flex;
+}
+
+.students .info span{
+    margin-bottom: 10px;
+}
+.info .name{
+    font-size: 24px;
+}

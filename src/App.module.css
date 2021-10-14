@@ -1,0 +1,19 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(90vh - 4px);
+}
+.left, .right{
+    width: 200px;
+    margin-top: 20px;
+}
+.left{
+    height: 100%;
+}
+.right{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-right: 20px;
+    height: 100%;
+}
